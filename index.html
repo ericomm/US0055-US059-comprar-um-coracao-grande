@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde no Prato</title>
+
+    <!-- Importação do normalize css para arrumar bugs -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    
+    <!-- Importação da web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+    <!-- Importar biblioteca de ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Importação do sistema de grid -->
+    <link rel="stylesheet" href="vendors/css/grid.css">
+
+    <!-- Importação do nossa folha de estilo -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/queries.css">
+
+    
+</head>
+<body>
+    <header>
+
+        <nav>
+            <div class="row">
+                <img class="logo" src="resources/img/champagne-glasses-solid.svg" 
+                    alt="Logo da empresa saúde no prato">
+
+                <ul class="main-nav">
+                    <li><a href="#">Tele-entrega</a></li>
+                    <li><a href="#funcionamento">Funcionamento</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Inscreva-se</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hero-text-box">
+            <h1>Adeus fast food do mal. <br>
+                Olá comida saúdavel do bem.</h1>
+            <a class="btn btn-full" href="#">Comprar agora</a>
+            <a class="btn btn-ghost" href="#">Mais informações</a>
+        </div>
+    </header>  
+
+    <section class="section-features" id="funcionamento">
+        <div class="row">
+            <h2>Solução rápida e saúdavel &mdash; não apenas solução rápida.</h2>
+            <p class="long-copy">Nós da saúde no prato queremos prover a você uma experiência 
+                incrivelmente deliciosa e saudável. Pois entendemos que nem 
+                todo mundo tem tempo suficiente ou interesse em cozinhar, 
+                mas não é por isso que as pessoas devem deixar de se alimentar
+                bem.</p>
+        </div>
+        <div class="row">
+            <!-- Primeira coluna-->
+            <div class="col span-1-of-4">
+                <ion-icon name="infinite"></ion-icon>
+                <h3>Aberto 365 dias</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat malesuada massa non porttitor. 
+                    Vivamus tristique laoreet lorem, at maximus ante ultrices vel.</p>
+            </div>
+            <!-- Segunda coluna-->
+            <div class="col span-1-of-4">
+                <ion-icon name="stopwatch"></ion-icon>
+                <h3>Pronto em 15 min.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat malesuada massa non porttitor. 
+                    Vivamus tristique laoreet lorem, at maximus ante ultrices vel.</p>
+            </div>
+            <!-- Terceira coluna-->
+            <div class="col span-1-of-4">
+                <ion-icon name="nutrition"></ion-icon>
+                <h3>100% orgânico</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat malesuada massa non porttitor. 
+                    Vivamus tristique laoreet lorem, at maximus ante ultrices vel.</p>
+            </div>
+            <!-- Quarta coluna-->
+            <div class="col span-1-of-4">
+                <ion-icon name="card"></ion-icon>
+                <h3>Aceitamos cartões</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat malesuada massa non porttitor. 
+                    Vivamus tristique laoreet lorem, at maximus ante ultrices vel.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-photos" id="galeria">
+        <ul class="images-showcase">
+            <li>
+                <figure class="photo">
+                    <img src="resources/img/1.jpg" alt="Prato 1">
+                </figure>
+            </li>
+            <li>
+                <figure class="photo">
+                    <img src="resources/img/2.jpg" alt="Prato 2">
+                </figure>
+            </li>
+            <li>
+                <figure class="photo">
+                    <img src="resources/img/3.jpg" alt="Prato 3">
+                </figure>
+            </li>
+            <li>
+                <figure class="photo">
+                    <img src="resources/img/4.jpg" alt="Prato 4">
+                </figure>
+            </li>
+        </ul>
+
+        <ul class="images-showcase">
+            <li>
+                <figure class="photo">
+                    <img src="resources/img/5.jpg" alt="Prato 5">
+                </figure>
+            </li>
+            <li>
+                <figure class="photo">
+                    <img src="resources/img/6.jpg" alt="Prato 6">
+                </figure>
+            </li>
+            <li>
+                <figure class="photo">
+                    <img src="resources/img/1.jpg" alt="Prato 1">
+                </figure>
+            </li>
+            <li>
+                <figure class="photo">
+                    <img src="resources/img/8.jpg" alt="Prato 8">
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-testimonials" id="depoimentos">
+        <div class="row">
+            <h2>Melhorando a qualidade de vida das pessoas</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Error harum, eum reprehenderit
+                     culpa vitae omnis ullam eveniet? Libero vero 
+                     nesciunt repudiandae praesentium pariatur? 
+                    <cite>
+                         <img src="resources/img/depo.jpg" alt="Alberto Sardinha">
+                         Alberto Sardinha
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Error harum, eum reprehenderit
+                     culpa vitae omnis ullam eveniet? Libero vero 
+                     nesciunt repudiandae praesentium pariatur? 
+                     <cite>
+                         <img src="resources/img/depo.jpg" alt="Alberto Sardinha">
+                         Alberto Sardinha
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Error harum, eum reprehenderit
+                     culpa vitae omnis ullam eveniet? Libero vero 
+                     nesciunt repudiandae praesentium pariatur? 
+                     <cite>
+                         <img src="resources/img/depo.jpg" alt="Alberto Sardinha">
+                         Alberto Sardinha
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <!-- Importação do JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Importação smooth-scrolling-->
+    <script src="vendors/js/scrolling.js"></script>
+    
+    <!-- Importação da biblioteca de icones-->
+    <script  type="module"  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script> 
+    <script  nomodule  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js "> </script>
+</body>
+</html>
